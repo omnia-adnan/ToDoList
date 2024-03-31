@@ -14,6 +14,7 @@ function Form({todos,setTodos}) {
         type="text"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
+        placeholder="Enter Todo item"
         />
         <button type="submit" className="btn-event">Add</button>
     </form>

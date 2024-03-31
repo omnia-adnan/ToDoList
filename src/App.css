@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans Unicode';
+}
+body{
+  background-color: rgb(203, 209, 209);
+}
+#titel{
+  font-size: clamp(1rem, 3vw + 1rem, 4.5rem);
+  color: rgb(121, 44, 114);
+  font-weight: bolder;
+  text-shadow: 5px 2px rgb(141, 132, 132, .2);
+  text-align: center;
+  min-height: 70px;
+  padding: 50px 0 0 0;
+}
+form{
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 20px 20px 0 20px;
+  box-shadow: 0 4px 6px rgb(0,0,0,.1);
+}
+.fild{
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+}
+.fild:focus{
+  outline: none;
+}
+.btn-event{
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(185, 117, 216) ;
+  padding: 5px;
+  cursor: pointer;
+}
+@media (min-width: 40em) {
+  body{
+    background-image: url('./image/flower.webp');
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  #titel{
+  padding: 150px 0 50px 0;
+  }
+  form{
+    max-width: 550px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 15px;
+  }
+  .fild{
+    font-size: 23px;
+  }
+  .btn-event{
+    padding: 10px;
+    font-size: 20px;
+  }
+}

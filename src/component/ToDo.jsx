@@ -7,7 +7,7 @@ function ToDo() {
     return(
         <div>
             <Form todos={todos} setTodos={setTodos} />
-            <Todolist todos={todos}/>
+            <Todolist todos={todos} setTodos={setTodos} />
         </div>
     );
 }

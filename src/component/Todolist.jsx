@@ -1,10 +1,12 @@
 import Todoitem from "./Todoitem";
+import '../App.css';
 
-function Todolist({todos}) {
+
+function Todolist({todos, setTodos}) {
     return(
-        <div>
+        <div id="itemlist">
             {todos.map((item, index) => (
-            <Todoitem item={item} key={index}
+            <Todoitem item={item} key={index} todos={todos} setTodos={setTodos}
             />
             ))}
         </div>

@@ -18,9 +18,9 @@ body{
 form{
   display: flex;
   background-color: white;
-  border-radius: 15px;
-  padding: 5px;
-  margin: 20px 20px 0 20px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 15px 0 15px;
   box-shadow: 0 4px 6px rgb(0,0,0,.1);
 }
 .fild{
@@ -35,11 +35,31 @@ form{
 }
 .btn-event{
   display: inline-block;
+  color: white;
   border: none;
-  border-radius: 8px;
-  background-color: rgba(185, 117, 216) ;
+  border-radius: 5px;
+  background-color: rgb(121, 44, 114);
   padding: 5px;
   cursor: pointer;
+}
+.delete{
+  float: right;
+  margin-top: -3px;
+}
+#itemlist{
+  background-color: white;
+  box-shadow: 0 4px 6px rgb(0,0,0,.1);
+  border-radius: 10px;
+  margin: 20px 15px;
+}
+.eachitem{
+  min-width: 200px;
+  padding: 8px;
+  margin: 0 auto;
+}
+.eachitemname{
+  font-weight: bold;
+  /* border-bottom: 1px solid rgb(0, 0, 0, .4); */
 }
 @media (min-width: 40em) {
   body{
@@ -55,6 +75,7 @@ form{
     margin: 0 auto;
     border-radius: 15px;
     padding: 15px;
+    margin-bottom: 50px;
   }
   .fild{
     font-size: 23px;
@@ -62,5 +83,14 @@ form{
   .btn-event{
     padding: 10px;
     font-size: 20px;
+  }
+  #itemlist{
+    margin: 0 auto;
+    max-width: 585px;
+    border-radius: 10px;
+  }
+  .eachitemname{
+    font-size: 25px;
+    padding: 8px;
   }
 }

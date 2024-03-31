@@ -5,4 +5,4 @@ function Todoitem({item}) {
         </div>
     );
 }
-export default Todoitem
+export default Todoitem;

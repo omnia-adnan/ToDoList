@@ -59,7 +59,12 @@ form{
 }
 .eachitemname{
   font-weight: bold;
-  /* border-bottom: 1px solid rgb(0, 0, 0, .4); */
+  border-bottom: 1px solid rgb(0, 0, 0, .4);
+}
+.itmedone{
+  text-decoration-line: line-through;
+  color: rgb(66, 105, 50);
+  font-weight: bolder;
 }
 @media (min-width: 40em) {
   body{
@@ -92,5 +97,8 @@ form{
   .eachitemname{
     font-size: 25px;
     padding: 8px;
+  }
+  .delete{
+    margin-top: -8px;
   }
 }

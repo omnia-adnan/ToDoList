@@ -119,8 +119,8 @@ form{
     margin-left: 13rem;
   }
 }
-@media (min-width: 70em) {
+/* @media (min-width: 70em) {
   details{
     margin-left: 45rem;
   }
-}
+} */

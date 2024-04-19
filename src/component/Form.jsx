@@ -17,6 +17,7 @@ function Form({todos,setTodos}) {
         value={todo.titel}
         onChange={(e) => setTodo({titel:e.target.value, done: false})}
         placeholder="Enter Todo item"
+        required
         />
         <button type="submit" className="btn-event">Add</button>
     </form>
